@@ -1,0 +1,24 @@
+{
+  "name": "jzh/lock",
+  "description": "webman lock plugin",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Jzh\\Lock\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "任我行",
+      "email": "313970140@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "symfony/lock": "^6.4"
+  },
+  "require-dev": {
+    "workerman/webman-framework": "^1.5"
+  }
+}
