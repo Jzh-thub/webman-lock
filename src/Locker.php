@@ -6,6 +6,11 @@ use support\Container;
 use Symfony\Component\Lock\LockFactory;
 use Symfony\Component\Lock\LockInterface;
 
+/**
+ * 业务锁
+ * @package Jzh\Lock
+ * @method static LockInterface Lock(string $key, float $ttl = null, bool $autoRelease = null, string $prefix = null) 创建锁
+ */
 class Locker
 {
     public static function __callStatic($name, $arguments)
